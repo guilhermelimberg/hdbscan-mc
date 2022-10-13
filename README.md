@@ -15,4 +15,4 @@ If you need help to implement this code for your specific problem, do not hesita
 
 Finally, you will notice that the provided code is calling generic names for the input data sets. You should replace these with your own sample(s) in order to run the code. I do not provide any data originally used for publication as I still utilize them for other purposes.
 
-PS: recently, some authors have built on our original work to develop a more robust way of applying HDBSCAN combined with Monte Carlo to account for uncertainties and membership probabilities. Check out their efforts: [Ou+2022])(https://ui.adsabs.harvard.edu/abs/2022arXiv220801056O/abstract).
+PS: recently, some authors have built on our original work to develop a more robust way of applying HDBSCAN combined with Monte Carlo to account for uncertainties and membership probabilities. Check out their efforts: [Ou+2022](https://ui.adsabs.harvard.edu/abs/2022arXiv220801056O/abstract).
