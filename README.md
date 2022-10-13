@@ -4,10 +4,10 @@ Application of HDBSCAN combined with Monte Carlo resamples
 An almost identical version of this code was originally described in [Limberg+2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...907...10L/abstract) paper in ApJ. 
 
 The algorithm strategy goes as follows. 
-1) Use HDBSCAN to produce what I refer to "nominal" clusters (from the nominal values of the quantities in your parameter space)
-2) Generating Monte Carlo realizations from uncertainties
-3) Throw these disturbed data back into the nominal parameter space 
-4) Count the number of instances each data point falls into a given cluster
+1) Use HDBSCAN to produce what I refer to "nominal" clusters (from the nominal values of the quantities in your parameter space).
+2) Generating Monte Carlo realizations from uncertainties.
+3) Throw these disturbed data back into the nominal parameter space.
+4) Count the number of instances each data point falls into a given cluster. We take this value divided by the total amount of Monte Carlo realizations as a "membership probability" of each given stars belonging to a group. 
 
 This same code was utilized in several subsequent papers, including [Gudin+2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...908...79G/abstract) and [Shank+2022](https://ui.adsabs.harvard.edu/abs/2022ApJ...926...26S/abstract). This strategy was copied by [Santos-Silva+2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.1033S/abstract) for a different purpose. Check out their paper (:
 
